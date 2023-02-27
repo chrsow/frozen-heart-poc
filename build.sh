@@ -9,7 +9,7 @@ fi
 
 if [ ! -e ./circuits/powersOfTau28_hez_final_15.ptau ]; then
     echo "#### Download Powers of Tau ####"
-    wget -q ttps://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_15.ptau -P circuits
+    wget -q https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_15.ptau -P circuits
 fi
 
 echo "#### Compile circuit ####"
