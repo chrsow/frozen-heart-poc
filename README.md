@@ -8,6 +8,8 @@ The [Frozen Heart Vulnerability](https://blog.trailofbits.com/2022/04/13/part-1-
 Make sure you have [Circom](https://docs.circom.io/), [NodeJS](https://nodejs.org/) and [NPM](https://www.npmjs.com/) installed (any version of these softwares should work), then run the following command to build the PoC.
 
 ```
+git clone https://github.com/chrsow/frozen-heart-poc
+cd frozen-heart-poc
 ./build.sh
 ```
 
